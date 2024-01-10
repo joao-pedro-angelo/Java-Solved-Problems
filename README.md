@@ -1,5 +1,7 @@
 # Java Programming Problem Solutions
 
+> More questions: https://leetcode.com/problemset/
+
 Welcome to the Java Programming Problem Solutions repository! 
 This collection provides solutions to a variety of programming problems, ranging from simple tasks like adding two integers to more complex challenges commonly encountered in job interviews.
 
