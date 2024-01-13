@@ -1,5 +1,6 @@
 package math.easy;
 
+// https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/description/
 public class SplitDigits{
     public static void main(String[] args){
         int num = 2932;
