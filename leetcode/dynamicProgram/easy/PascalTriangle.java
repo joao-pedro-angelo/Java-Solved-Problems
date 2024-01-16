@@ -18,6 +18,6 @@ public class PascalTriangle {
 
     private static int[] calculatePascalTriangle(int numRow){
         int[] row = new int[numRow];
-
+        return new int[]{1,1};
     }
 }
