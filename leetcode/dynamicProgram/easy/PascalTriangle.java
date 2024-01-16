@@ -12,13 +12,13 @@ public class PascalTriangle {
 
     private static List<List<Integer>> generate(int numRows){
         List<List<Integer>> listPascal = new ArrayList<>();
-        for (int i = 0; i < numRows; i++){
-            int[] row = new int[i + 1];
+        for (int i = 1; i <= numRows; i++){
+            int[] row = new int[i];
             row[0] = 1;
             row[row.length - 1] = 1;
 
             for (int j = 1; j < row.length - 1; j++){
-                row[j] = listPascal.get(i - 1).get(j - 1) + listPascal.get(i - 1).get(j);
+                row[j] = listPascal.get(i - 2).get(j - 1) + listPascal.get(i - 2).get(j);
             }
 
             List<Integer> rowList = new ArrayList<>();
