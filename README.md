@@ -5,7 +5,8 @@
 Welcome to the Java Programming Problem Solutions repository! 
 This collection provides solutions to a variety of programming problems, ranging from simple tasks like adding two integers to more complex challenges commonly encountered in job interviews.
 
-> Don't use imports (except: Arrays.toString())
+> Avoid unnecessary imports.
+
 
 ## Introduction
 
