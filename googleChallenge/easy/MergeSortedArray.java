@@ -2,7 +2,7 @@ package easy;
 
 import java.util.Arrays;
 
-//https://leetcode.com/problems/merge-sorted-array/description
+//leetcode.com/problems/merge-sorted-array/description
 public class MergeSortedArray {
 
     public static void main(String[] args){
